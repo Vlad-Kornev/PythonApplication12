@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Cycle for.py" />
+    <Compile Include="Dict 1.py" />
+    <Compile Include="Dict 2.py" />
+    <Compile Include="Dict 3.py" />
     <Compile Include="From Book.py">
       <SubType>Code</SubType>
     </Compile>
