@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>316b715a-b8c4-461d-9587-1deeddc05172</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -59,15 +60,6 @@
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="module2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="module3.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Cycle while.py">
       <SubType>Code</SubType>
     </Compile>
@@ -98,9 +90,6 @@
     <Compile Include="Functions 2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module5.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Strings 1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -119,7 +108,6 @@
     <Compile Include="Simple Calc.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonApplication1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
