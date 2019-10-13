@@ -31,6 +31,12 @@
     <Compile Include="Dict 1.py" />
     <Compile Include="Dict 2.py" />
     <Compile Include="Dict 3.py" />
+    <Compile Include="Files 1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Files 2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="From Book.py">
       <SubType>Code</SubType>
     </Compile>
@@ -92,6 +98,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Functions 2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Files 3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Files 4.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings 1.py">

@@ -1,0 +1,6 @@
+inf = open ('file.txt','r')
+s1 = inf.readline()
+s2 = inf.readline()
+inf.close()
+print(s1, end='')
+print(s2)
