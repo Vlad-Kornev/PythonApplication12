@@ -37,6 +37,12 @@
     <Compile Include="Files 2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Files 5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Files 6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="From Book.py">
       <SubType>Code</SubType>
     </Compile>
