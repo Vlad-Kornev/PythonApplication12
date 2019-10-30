@@ -1,9 +1,17 @@
-import tkinter
+# импорт необходимых для работы модулей - tkinter (для выбора и открытия нужного файла в графическом окне) и requests (для получения текста из файла по url ссылке)
+import tkinter,requests
+# дополнительно импортируем вск функции их подмодуля filedialog модуля tkinter
 from tkinter.filedialog import *
-root = Tk()
-root.update()
+# переменной w присваивается объект "окно" создаваемый конструктором объктов Tk(), с помошью данной переменной можно управлять аттрибутоами данного окна
+w = Tk()
+w.title("Выбор файла для анализа")
+# присваиваем переменной inf значение файла, открываемого с помощью модуля tkinter
 inf = tkinter.filedialog.askopenfile('r')
-root.destroy()
-for line in inf:
-    print(line)
-inf.close()
+# уничтожаем объект окно
+w.destroy()
+# считываем url адрес их файла
+url = inf.readline().strip()
+# получаем значение по ссылке
+r = requests.get(url)
+# разбиваем текст на множество (по строчкам, функция splitlines()), и узнаем его длину
+print(len(r.text.splitlines()))
