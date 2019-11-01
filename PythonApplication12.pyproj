@@ -121,6 +121,9 @@
     <Compile Include="Modules 3.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules 4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Strings 1.py">
       <SubType>Code</SubType>
     </Compile>
