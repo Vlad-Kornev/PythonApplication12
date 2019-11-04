@@ -112,6 +112,9 @@
     <Compile Include="Files 4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules 1.py">
       <SubType>Code</SubType>
     </Compile>
