@@ -8,27 +8,9 @@ main_dict = {}#основной словарь, в нем командам со�
 goal_dict = {}
 # созданик функции, которая на основании каждой строки будет заполнять словарь и списки, соответствующие элементам словаря
 def func_lines(line):
-    for n in line:
-        if n.isalpha == True:
-            if n not in main_dict == True:
-                        main_dict[n] = []
-            else:
-                continue
-        else:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    a = line.strip().split(sep=';')
+    if a[0] not in main_dict.keys():
+        main_dict.setitem(a[0])
 
 
 for line in f:
@@ -37,3 +19,5 @@ for line in f:
         # определяем количество игр
     else:
         print(line.strip().split(sep=';'))
+        func_lines(line)
+        print(main_dict)
