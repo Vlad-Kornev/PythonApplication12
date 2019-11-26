@@ -9,8 +9,15 @@ goal_dict = {}
 # созданик функции, которая на основании каждой строки будет заполнять словарь и списки, соответствующие элементам словаря
 def func_lines(line):
     a = line.strip().split(sep=';')
-    if a[0] not in main_dict.keys():
-        main_dict.setitem(a[0])
+    #if a[0] not in main_dict.keys():
+    main_dict[a[0]] = dict(wins=0,drows=0,defeats=0,points=0)
+    #if a[2] not in main_dict.keys():
+    main_dict[a[2]] = dict(wins=0,drows=0,defeats=0,points=0)
+
+
+
+
+
 
 
 for line in f:
@@ -18,6 +25,5 @@ for line in f:
         games = int(line)
         # определяем количество игр
     else:
-        print(line.strip().split(sep=';'))
         func_lines(line)
-        print(main_dict)
+print(main_dict)
