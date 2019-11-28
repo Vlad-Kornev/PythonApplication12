@@ -10,14 +10,10 @@ goal_dict = {}
 def func_lines(line):
     a = line.strip().split(sep=';')
     #if a[0] not in main_dict.keys():
-    main_dict[a[0]] = dict(wins=0,drows=0,defeats=0,points=0)
+    main_dict[a[0]] = [0,0,0,0]
     #if a[2] not in main_dict.keys():
-    main_dict[a[2]] = dict(wins=0,drows=0,defeats=0,points=0)
-
-
-
-
-
+    main_dict[a[2]] = [0,0,0,0]
+    if a[1]>a[3]:
 
 
 for line in f:
